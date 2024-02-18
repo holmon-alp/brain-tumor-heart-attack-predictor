@@ -5,6 +5,7 @@ and heart attack susceptibility based on natural and biological data.
 
 ---
 The program was developed as a web application by **Streamlit**
+
 [Go live](https://brain-tumor-heart-attack-predictor.streamlit.app/)
 
 ---

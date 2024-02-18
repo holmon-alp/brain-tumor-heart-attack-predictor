@@ -21,6 +21,7 @@ st.divider()
 st.title("Program that detects brain tumors using X-ray images")
 ftypes = ["png", "jpg"]
 
+
 def brain_tumor_checker():
     img = st.file_uploader(label="Upload X-ray image", type=ftypes)
     
@@ -31,12 +32,23 @@ def brain_tumor_checker():
         predict, pr_id, prob = BT_model.predict(pil_img)
         predict  = custom_label_mapping.get(predict[0], "Unknown").upper()
 
-        st.markdown(f"Diagnosis result according to X-ray: <b>{predict}</b>")
+        st.markdown(f"#### Diagnosis result according to X-ray: **{predict}**")
         st.info(f"Accuracy: {(prob[pr_id] * 100):.2f}%")
         # print(model.dls.vocab, np.array(prob)*100 , sep='\n')
         fig = px.bar(x=custom_label_mapping.values(), y=prob*100)
+        st.write("Differences in results")
         st.plotly_chart(fig)
     # else:
         # st.info("Image not foud")
 
 brain_tumor_checker()
+
+
+# Files(images) for testing model
+test1 = PILImage.create("./tests/1000.png")
+test2 = PILImage.create("./tests/100.png")
+test3 = PILImage.create("./tests/2300.png")
+st.write("Images for test app")
+st.download_button("Download test 1", test1)
+st.download_button("Download test 2", test2)
+st.download_button("Download test 3", test3)

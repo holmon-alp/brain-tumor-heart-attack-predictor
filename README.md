@@ -4,7 +4,8 @@ With the help of this program, you can check brain tumor according to X-ray pict
 and heart attack susceptibility based on natural and biological data.
 
 ---
-The program was developed as a web application by Streamlit
+The program was developed as a web application by **Streamlit**
+[Go live](https://brain-tumor-heart-attack-predictor.streamlit.app/)
 
 ---
 ### About Brain tumor software:

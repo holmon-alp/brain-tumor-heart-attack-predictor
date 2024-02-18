@@ -18,7 +18,6 @@ You enter information on a given form and the program predicts
 whether you are more or less likely to have a heart attack.
 If you want to get more information about the model, click on the link below.
 
-    Code on Github](https://github.com/holmon-alp/heart-attack-predictor.git)
 
 ![heart](https://marvel-b1-cdn.bc0a.com/f00000000229348/www.silversneakers.com/wp-content/uploads/2018/09/SSBlog_HeartAttack_700x525.jpg)
 

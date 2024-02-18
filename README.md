@@ -3,8 +3,6 @@
 With the help of this program, you can check brain tumor according to X-ray picture 
     and heart attack susceptibility based on natural and biological data.
 
-    **👈 Select a program from the sidebar** to test programs!
-
     ---
     ### About Brain tumor software:
     The program's model was trained using the image dataset from kaggle.com.

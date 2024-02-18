@@ -4,6 +4,9 @@ With the help of this program, you can check brain tumor according to X-ray pict
 and heart attack susceptibility based on natural and biological data.
 
 ---
+The program was developed as a web application by Streamlit
+
+---
 ### About Brain tumor software:
 The program's model was trained using the image dataset from kaggle.com.
 You can get acquainted with the model notebook and dataset through the following link:

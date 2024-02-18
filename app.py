@@ -37,7 +37,8 @@ st.markdown(
 
     ***
 
-   [Source code of this app](https://github.com/holmon-alp/brain-tumor-heart-attack-predictor.git) 
+   [Source code of this app](https://github.com/holmon-alp/brain-tumor-heart-attack-predictor.git)
+   
    ---
    ##### Created at 18.02.2023
    #### Created by **Mirjamol Mirislomov**

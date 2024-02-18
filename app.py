@@ -38,25 +38,8 @@ st.markdown(
     ***
 
    [Source code of this app](https://github.com/holmon-alp/brain-tumor-heart-attack-predictor.git) 
+   ---
+   Created at 18.02.2023
+   Created by **Mirjamol Mirislomov**
 """
 )
-
-
-# if __name__ == "__main__":
-#     pg.braintumor.brain_tumor_checker()
-#     # run_parallel([heart_attack, brain_tumor_checker])
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

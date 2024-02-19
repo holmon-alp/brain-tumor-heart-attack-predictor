@@ -36,9 +36,9 @@ st.markdown(
     ![heart](https://marvel-b1-cdn.bc0a.com/f00000000229348/www.silversneakers.com/wp-content/uploads/2018/09/SSBlog_HeartAttack_700x525.jpg)
 
     ***
-    ```
+    
     [Source code of this app](https://github.com/holmon-alp/brain-tumor-heart-attack-predictor.git)
-    ```
+
     ---
     ##### Created at 18.02.2023
     #### Created by **Mirjamol Mirislomov**
